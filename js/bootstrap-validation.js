@@ -11,7 +11,7 @@ formData = {
 
 
 $.ajax({
-url : "https://test.taxadvisor.ml/mail.php",
+url : "mail.php",
 type: "POST",
 data : formData,
 success: function(data, textStatus, jqXHR)
