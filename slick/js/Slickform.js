@@ -21,7 +21,7 @@ $(document).ready(function(){
 			var userscomment = $('#comment');
 			var usershuman = $('#human');
 			var isvalid = 1;
-			var url = "slickform.php";
+			var url = "https://test.taxadvisor.ml/slick/slickform.php";
 			
 			//Checking information is correct before sending data
 			
