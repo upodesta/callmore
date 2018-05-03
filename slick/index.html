@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Slickform - Ajax Contact Form</title>
+
+<link href="css/slickform-standalone.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+<meta name="apple-mobile-web-app-capable" content="yes" /> 
+<meta name="apple-mobile-web-app-status-bar-style" content="grey" /> 
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" /> 
+<script src="js/jquery-1.7.2.js"></script>
+<script src="js/Slickform.js"></script>
+</head>
+
+<body>
+
+<div class="slickwrap">
+
+	<div class="slickreporting">
+    
+    	<div class="successcontainer"></div>
+
+        <div class="errorcontainer">
+            
+            <div class="errorshutter"></div>
+            <div class="slickerror"></div>
+        
+        </div>
+            
+    </div>
+
+	<h2>Contact Us</h2>
+    
+    <hr />
+    
+    <form method="post" id="slickform" action="javascript:slickcontactparse();">
+    
+    	<fieldset>
+        
+        	<label><span>*</span>Name</label>
+            <input id="name" name="name" type="text" value="">
+            
+            
+            <br />
+        	<label><span>*</span>Email</label>
+            <input id="email" name="email" type="text" value="">
+            
+            <br />
+        	<label><span>*</span>Subject</label>
+            <select id="subject">
+            	<option value="">Please Select</option>
+                <option value="sales">Sales</option>
+                <option value="support">Support</option>
+            </select>
+            
+            <hr />
+        	<label><span>*</span>Comment</label>
+            <textarea name="comment" id="comment" cols="5" rows="5" class="largertextarea"></textarea>
+            <h3>Are You Human?</h3>
+            <br />
+        	<label><span>*</span> 12 + 3</label>
+            <input name="human" id="human" type="text" value="" class="areyouhuman">
+            
+            <hr />
+            <input name="submit" type="submit" value="Contact Us" class="slickbutton">
+        
+        </fieldset>
+    
+    </form>
+
+</div>
+</body>
+</html>
