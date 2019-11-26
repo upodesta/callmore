@@ -1,0 +1,17 @@
+
+# Site settings
+title: Syed Hassan Ali
+language: html "en"
+email: me@taxadvisor.com.bd
+description: 
+keywords: Income tax Advisor, Tax Advisor, taxadvisor, Tax Consultants, Company Law, Company Law Advisor, Business Services, Business Service provider
+
+# Your website URL 
+# Used for Sitemap.xml and your RSS feed
+url: https://test.taxadvisor.ml
+     
+baseurl: https://test.taxadvisor.ml
+
+# Team names, titles and social links
+# a change in the length of the longest description affects /agency.css .team-member p.description
+
